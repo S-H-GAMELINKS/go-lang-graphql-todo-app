@@ -10,12 +10,15 @@ services:
 
   web:
     build: ./web
+    command: yarn start
     volumes:
       - ./web:/web
+    ports:
+      - 3000:3000
 
   api:
     build: ./api
-    voluemes:
+    volumes:
       - ./api:/api
     depends_on:
       - db
