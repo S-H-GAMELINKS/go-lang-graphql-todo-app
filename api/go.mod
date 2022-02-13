@@ -3,6 +3,7 @@ module github.com/S-H-GAMELINKS/go-lang-graphql-todo-app/api
 go 1.16
 
 require (
+	github.com/99designs/gqlgen v0.16.0 // indirect
 	github.com/cosmtrek/air v1.27.10 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
