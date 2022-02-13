@@ -2,14 +2,13 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/S-H-GAMELINKS/go-lang-graphql-todo-app/api/routes"
 )
 
 func main() {
-	r := gin.Default()
-	r.GET("/ping", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message": "pong",
-		})
-	})
+	r := gin.New()
+
+	routes.SetupRoutes(r)
+
 	r.Run()
 }
