@@ -18,7 +18,7 @@ services:
 
   api:
     build: ./api
-    command: go run main.go
+    command: air
     volumes:
       - ./api:/api
     ports:
