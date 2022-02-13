@@ -14,5 +14,6 @@ require (
 	golang.org/x/sys v0.0.0-20220209214540-3681064d5158 // indirect
 	golang.org/x/tools v0.1.9 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
+	gorm.io/driver/mysql v1.2.3 // indirect
 	gorm.io/gorm v1.22.5 // indirect
 )
